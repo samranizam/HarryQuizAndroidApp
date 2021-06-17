@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalActivity"
+    android:background="@drawable/hpcpy"
+    android:gravity=""
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/badge"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HERE IS YOUR MAGIC BLOOD REPORT!"
+        android:textSize="25dp"
+        android:background="#7a3400"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="top"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/username"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Dear name,"
+        android:textSize="25dp"
+        android:background="#bd5000"
+        android:textColor="@color/white"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/score"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="your score is     which makes you.."
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"
+        android:background="#bd5000"
+        android:textColor="@color/white"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/blood"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Muggle!!!"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"
+        android:background="#f9a602"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:src="@drawable/sign"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+    <Button
+        android:id="@+id/quizend"
+        android:background="#ff0000"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="restart QUIZ"/>
+
+</LinearLayout>
